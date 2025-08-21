@@ -872,7 +872,7 @@
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
             const grid = document.querySelector('.grid-overlay');
-            grid.style.transform = translateY(${scrolled * 0.05}px);
+            grid.style.transform = `translateY(${scrolled * 0.05}px)`;
         });
 
         // Navigation Active State
